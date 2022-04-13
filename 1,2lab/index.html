@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>lab1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="static/css/css2.css">
+  </head>
+  <body class="hg">
+
+    <header class="hg__header">HEADER</header>
+    <main class="hg__main">
+      <div class="main">
+        <div class="p">Калькулятор квадратных уравнений</div>
+          <form action="">
+            <input type="number" id="a" placeholder="a"> x <sup>2</sup>+
+            <input type="number" id="b" placeholder="b"> x +
+            <input type="number" id="c" placeholder="c"> = 0
+            <br><br><input type="button" value="Решить" onclick="prog();">
+          </form>
+          <div id="otvet">
+            <h2>Результат:</h2>
+            <pre id="result"></pre>
+          </div>
+          <script src="static/calc.js"></script>
+        </div>
+    </main>
+    <aside class="hg__right">
+      <a href="info.html" style="color: #fcfcfc;">info</a>
+      <br />
+      <br />
+      <a href="contacts.html" style="color: #ffffff;">contacts</a>
+    </aside>
+    <footer class="hg__footer">FOOTER</footer>
+  </body>
+</html>

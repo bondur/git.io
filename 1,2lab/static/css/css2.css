@@ -1,0 +1,90 @@
+html, body {
+	margin: 0;
+}
+
+.hg__header {
+	grid-area: header;
+	background-color: #6d6d6d;
+	font-size: 20px;
+	text-align: center;
+	font-family: monospace;
+	padding-top: 35px;
+  }
+.hg__footer {
+	grid-area: footer;
+	background-color: #424242;
+	text-align: center;
+	font-family: monospace;
+	font-size: 20px;
+	padding: 10px;
+  }
+.hg__main {
+	grid-area: main;
+	background-color: #a1a1a1
+  }
+.hg__right {
+	grid-area: ads;
+	background-color: #242323;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+  }
+
+.hg {
+	display: grid;
+	grid-template-areas: "header header"
+	                     "main ads"
+	                     "footer footer";
+
+	grid-template-columns:1fr 250px;
+
+	grid-template-rows:150px
+					1fr 
+					60px;
+
+	min-height: 100vh;
+}
+
+p {
+	font-size: 16px;
+	font-family: monospace;
+	text-align: center;
+  }
+
+
+@media screen and (max-width: 600px) {
+	.hg {
+		grid-template-areas: "header"
+							"ads"
+		                    "main"
+		                 	"footer";
+
+		grid-template-columns: 100%;
+		grid-template-rows: 100px 
+							90px
+							1fr
+							50px;
+	}
+}
+
+#otvet{
+	display: none;
+  }
+  pre{
+	margin: auto;
+  
+	background: white;
+	border: 1px solid black;
+  }
+  input[type="number"]{
+	width: 10vw;
+	text-align: right;
+  }
+  input[type="button"]{
+	border: none;
+  
+  }
+  input[type="button"]:hover{
+	opacity: 0.5;
+  
+  }
