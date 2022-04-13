@@ -1,0 +1,157 @@
+
+
+
+
+.hg {
+	display: grid;
+	grid-template-areas: "header header"
+	                     "main ads"
+	                     "footer footer";
+
+	grid-template-columns:1fr 120px;
+
+	grid-template-rows:150px
+					1fr 
+					60px;
+
+	min-height: 100vh;
+	
+}
+
+.hg__header {
+    
+	grid-area: header;
+	background-color: #000000;
+	font-size: 20px;
+	text-align: center;
+	font-family: monospace;
+	padding-top: 35px;
+	
+	font-family: 'Montserrat', sans-serif;
+    
+  }
+
+.hg_main{
+  display: grid;
+  grid-template-areas: "maincontent1"
+					   "maincontent2"
+					   "footer footer";
+
+}
+
+
+  .col{
+	color: white;
+  }
+
+  #button {
+	font-size: 110%;
+  }
+
+  #dropdownMenuButton{
+	  border-radius: 20px;
+  }
+
+
+ 
+ 
+  .maincontent1{
+	
+	background-color: #000000;
+	width: 110.1%;
+	  height: 100%;
+	  
+  }
+
+
+  .maincontent2{
+	width: 108.29%;
+	  height: 1000px;
+	  background-color: rgb(255, 255, 255);
+  }
+
+ 
+
+
+  .btn-group{
+	  background-color: aliceblue;
+	  border-radius: 30px;
+	  height: 58px;
+	  width: 800px;
+	  
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 53%;
+}
+
+
+div#tekst_sverhu_kartinki {
+position: relative;
+}.tekst_sverhu_kartinki {
+position: absolute;
+top: 70%;
+left: 500px;
+text-transform: uppercase;
+color: white;
+width: 350px;
+padding: 10px;
+text-align: center;
+}
+
+
+
+.card{
+	width: 200px;
+	height: 300px;
+	right: 0px;
+	left: 100px;
+	top: 120px;
+	
+}
+
+
+.card-body{
+	
+	background-color: rgb(240, 62, 106);
+	
+	
+}
+
+
+p.xtx { padding-left:  40px;
+		padding-top: 20px;
+		padding-right: 30px;
+}
+
+p.xtx1 { padding-left:  400px;
+	padding-top: 200px;
+	padding-right: 300px;
+}
+
+
+.wrapper {
+	
+	padding-left:  400px;
+		padding-top: 20px;
+		padding-right: 30px;
+	justify-content: space-between;
+  }
+  
+  img {
+	width: 30%;
+	
+    
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+  }
+
+
+  .footer{
+	  background-color: rgb(221, 230, 230);
+	  width: 110.1%;
+	  height: 120%;
+  }
